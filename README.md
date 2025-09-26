@@ -1,4 +1,4 @@
-# Hi there, I'm Amirerfan Teimoori 👨‍💻
+# Hi there, I'm Amirerfan Teimouri 👨‍💻
 
 ## 👨‍💻 About Me
 
