@@ -33,7 +33,7 @@ I’m **22 years old** and hold a **B.Sc in Computer Engineering** from **Amirka
 
 ## 📧 Connect with Me
 
-- **LinkedIn**: [Amirerfan Teimoori](https://www.linkedin.com/in/amirerfantim/)
+- **LinkedIn**: [Amirerfan Teimouri](https://www.linkedin.com/in/amirerfantim/)
 - **Email**: [amirerfantim@gmail.com](mailto:amirerfantim@gmail.com)
 
 ---
