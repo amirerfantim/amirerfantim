@@ -10,8 +10,6 @@
 
 ## ⚡ What I do
 
-Software engineer with 4 years of experience. I build, deploy and run software, from the first idea to production.
-
 <table>
 <tr>
 <td width="50%" valign="top">
