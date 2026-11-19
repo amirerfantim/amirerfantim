@@ -43,7 +43,7 @@ Location data, routing and map matching. Turning noisy real-world signals into a
 <td valign="top">
 
 ### 🔬 Research and science
-I investigate before I build: hypotheses, experiments, benchmarks and clear write-ups.
+I turn open questions into answers. I form hypotheses, run experiments and benchmarks, and document the findings clearly.
 
 </td>
 <td valign="top">
@@ -95,7 +95,7 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <div align="center">
 
-<img src="stats.svg" alt="Contribution stats and top languages" width="100%">
+<img src="stats.svg" alt="All-time contributions and most used languages" width="100%">
 
 </div>
 
