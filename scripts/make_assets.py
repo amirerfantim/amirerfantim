@@ -92,16 +92,16 @@ LINES = [("$ whoami", "#7ee787", 0),
          ("$ status", "#7ee787", 0),
          ("open to werkstudent roles", "#ffa657", 0)]
 CYCLE, CH = 16.0, 9.6
-t = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="230" viewBox="0 0 {W} 230" role="img" aria-label="Terminal intro">',
+t = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="258" viewBox="0 0 {W} 258" role="img" aria-label="Terminal intro">',
      '<style>text{font-family:\'Fira Code\',\'SF Mono\',ui-monospace,Menlo,Consolas,monospace;font-size:16px}'
      '.cur{animation:b 1s steps(2) infinite}@keyframes b{50%{opacity:0}}</style>',
-     '<rect x="20" y="10" width="840" height="210" rx="12" fill="#0d1117" stroke="#30363d"/>',
+     '<rect x="20" y="10" width="840" height="238" rx="12" fill="#0d1117" stroke="#30363d"/>',
      '<rect x="20" y="10" width="840" height="34" rx="12" fill="#161b22"/><rect x="20" y="30" width="840" height="14" fill="#161b22"/>',
      '<circle cx="46" cy="27" r="6" fill="#ff5f56"/><circle cx="68" cy="27" r="6" fill="#ffbd2e"/><circle cx="90" cy="27" r="6" fill="#27c93f"/>',
      '<text x="440" y="32" text-anchor="middle" fill="#8b949e" style="font-size:12px">amirerfan — zsh</text>']
 start = 0.4
 for i, (txt, col, _) in enumerate(LINES):
-    y = 78 + i * 28
+    y = 80 + i * 28
     n = len(txt)
     typing = 0.04 * n if txt.startswith("$") else 0.02 * n
     t0 = start / CYCLE
@@ -113,7 +113,7 @@ for i, (txt, col, _) in enumerate(LINES):
              f'keyTimes="0;{t0:.4f};{t1:.4f};0.94;1" values="0;0;{wpx:.0f};{wpx:.0f};0"/></rect></clipPath>')
     t.append(f'<text x="44" y="{y}" fill="{col}" clip-path="url(#{cid})" xml:space="preserve">{txt}</text>')
     start += typing + (0.45 if txt.startswith("$") else 0.7)
-t.append(f'<rect class="cur" x="44" y="{78+len(LINES)*28-20}" width="9" height="18" fill="#c9d1d9"/>')
+t.append(f'<rect class="cur" x="44" y="{80+len(LINES)*28-16}" width="9" height="18" fill="#c9d1d9"/>')
 t.append('</svg>')
 open("terminal.svg", "w", encoding="utf-8").write("\n".join(t))
 print("ok", start)

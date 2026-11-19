@@ -6,7 +6,7 @@
   <img src="banner-light.svg" alt="Amirerfan Teimouri" width="100%">
 </picture>
 
-<img src="terminal.svg?v=1" alt="Terminal: whoami, focus, status" width="100%">
+<img src="terminal.svg?v=2" alt="Terminal: whoami, focus, status" width="100%">
 
 </div>
 
@@ -69,7 +69,7 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <div align="center">
 
-<img src="marquee.svg?v=1" alt="Tools and technologies" width="100%">
+<img src="marquee.svg?v=2" alt="Tools and technologies" width="100%">
 
 </div>
 
