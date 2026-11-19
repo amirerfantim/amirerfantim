@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Amirerfan%20Teimouri&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Researcher%20%7C%20Agentic%20AI&descSize=17&descAlignY=60" alt="Amirerfan Teimouri" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+  <img src="banner-light.svg" alt="Amirerfan Teimouri" width="100%">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Software+engineer+and+researcher;Agentic+development+with+AI;Cloud%2C+deploy+and+observability" alt="Typing intro">
+<img src="terminal.svg?v=1" alt="Terminal: whoami, focus, status" width="100%">
 
 </div>
 
@@ -65,17 +69,7 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,py,rust,ts,bash,postgres,redis,mongodb,cassandra&perline=9" alt="Languages and databases"><br>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,gitlab,rabbitmq,openstack,prometheus,grafana&perline=9" alt="Cloud and tools"><br>
-<img src="https://skillicons.dev/icons?i=pytorch,django,fastapi,react,nginx&perline=9" alt="Frameworks"><br><br>
-
-![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+<img src="marquee.svg?v=1" alt="Tools and technologies" width="100%">
 
 </div>
 
@@ -119,6 +113,10 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 [![Email](https://img.shields.io/badge/Email-amirerfantim%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amirerfantim@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,11,20&section=footer" alt="" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="footer-light.svg">
+  <img src="footer-light.svg" alt="" width="100%">
+</picture>
 
 </div>
