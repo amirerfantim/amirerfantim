@@ -1,4 +1,4 @@
-"""Build marquee.svg, banner-*.svg, footer-*.svg and terminal.svg (run by hand, files are committed)."""
+"""Build marquee.svg, banner-*.svg and footer-*.svg (run by hand, files are committed)."""
 import base64, math, re, urllib.request
 
 def get(url):
