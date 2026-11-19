@@ -10,7 +10,7 @@ req = urllib.request.Request(
 repos = json.load(urllib.request.urlopen(req))
 rows = []
 for r in repos:
-    if r["fork"] or r["private"] or r["name"] == USER or r["archived"] or r["name"] in FEATURED:
+    if r["fork"] or r["private"] or r["name"] == USER or r["archived"] or r["name"] in FEATURED or not (r["description"] or "").strip():
         continue
     day = r["pushed_at"][:10]
     desc = (r["description"] or "").strip()

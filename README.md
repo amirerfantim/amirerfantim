@@ -163,9 +163,9 @@ A rating API that keeps fake-vote spikes from moving the average.
 <!--RECENT:START-->
 - [Leetcode-solutions](https://github.com/amirerfantim/Leetcode-solutions) — My LeetCode solutions in Python, Java and SQL, with an index of all problems. _(pushed 2026-11-19)_
 - [eos](https://github.com/amirerfantim/eos) — Eos — a modern habit tracker (PWA). Show up daily, keep your light alive. _(pushed 2026-11-19)_
-- [Gender-Prediction](https://github.com/amirerfantim/Gender-Prediction) —  _(pushed 2024-01-16)_
 - [Simple-Information-Retieval-System](https://github.com/amirerfantim/Simple-Information-Retieval-System) — This project aims to retrieve relevant documents from a collection of Persian news articles using boolean and ranked retrieval methods. _(pushed 2023-06-14)_
-- [Berkeley-AI-Project](https://github.com/amirerfantim/Berkeley-AI-Project) —  _(pushed 2023-06-14)_
+- [battleship](https://github.com/amirerfantim/battleship) — C university final project - feb.2021 _(pushed 2023-06-14)_
+- [MafiaGame](https://github.com/amirerfantim/MafiaGame) — MidTerm project of Advanced Programming at Amirkabir university _(pushed 2023-06-14)_
 <!--RECENT:END-->
 
 ## 🌍 Open source
