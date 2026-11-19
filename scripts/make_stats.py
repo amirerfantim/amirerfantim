@@ -2,19 +2,26 @@
 import json, os, urllib.request
 
 USER = "amirerfantim"
-FACTS = [("4", "years of engineering"), ("1,650+", "commits in production services"),
-         ("14", "research reports written")]
 COLORS = {"Go": "#00ADD8", "Python": "#3776AB", "Rust": "#DEA584", "TypeScript": "#3178C6",
           "JavaScript": "#F1E05A", "Java": "#B07219", "Shell": "#89E051", "HTML": "#E34C26",
           "CSS": "#9B59B6", "Dockerfile": "#384D54", "PLpgSQL": "#336790", "TSX": "#3178C6",
           "Makefile": "#427819", "Jupyter Notebook": "#DA5B0B"}
 
 
+TOKEN = os.environ.get("STATS_TOKEN") or os.environ["GITHUB_TOKEN"]
+
+
 def api(path):
     req = urllib.request.Request("https://api.github.com" + path, headers={
-        "Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
-        "Accept": "application/vnd.github+json"})
+        "Authorization": "Bearer " + TOKEN, "Accept": "application/vnd.github+json"})
     return json.load(urllib.request.urlopen(req, timeout=60))
+
+
+def gql(query):
+    req = urllib.request.Request("https://api.github.com/graphql",
+        data=json.dumps({"query": query}).encode(),
+        headers={"Authorization": "Bearer " + TOKEN, "Content-Type": "application/json"})
+    return json.load(urllib.request.urlopen(req, timeout=60))["data"]
 
 
 repos = [r for r in api(f"/users/{USER}/repos?per_page=100&type=owner")
@@ -25,7 +32,20 @@ for r in repos:
         langs[k] = langs.get(k, 0) + v
 total = sum(langs.values()) or 1
 top = sorted(langs.items(), key=lambda kv: -kv[1])[:7]
-facts = FACTS + [(str(len(repos)), "public repositories")]
+created = int(gql('{user(login:"%s"){createdAt}}' % USER)["user"]["createdAt"][:4])
+import datetime
+now = datetime.datetime.utcnow()
+allc = 0
+for y in range(created, now.year + 1):
+    d = gql('{user(login:"%s"){contributionsCollection(from:"%d-01-01T00:00:00Z",to:"%d-12-31T23:59:59Z"){contributionCalendar{totalContributions}}}}' % (USER, y, y))
+    allc += d["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+d = gql('{user(login:"%s"){pullRequests{totalCount} contributionsCollection{contributionCalendar{totalContributions}}}}' % USER)
+last12 = d["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+prs = d["user"]["pullRequests"]["totalCount"]
+stars = sum(r["stargazers_count"] for r in repos)
+fmt = lambda n: f"{n:,}"
+facts = [(fmt(allc), "contributions, all time"), (fmt(last12), "contributions, last 12 months"),
+         (fmt(prs), "pull requests"), (fmt(stars), "stars earned")]
 
 W, H = 880, 330
 out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Stats">',
