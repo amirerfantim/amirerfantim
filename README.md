@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Software+engineer+and+researcher;Agentic+development+with+AI;Cloud%2C+deploy+and+observability" alt="Typing intro">
 
-<sub>I build reliable software, investigate hard problems, and work with AI agents.</sub>
+<p><em>I build reliable software, investigate hard problems, and work with AI agents.</em></p>
 
 </div>
 
@@ -158,14 +158,14 @@ A rating API that keeps fake-vote spikes from moving the average.
 
 </div>
 
-## 🚀 Recent activity
+## 🚀 More recent work
 
 <!--RECENT:START-->
-- [ChatbotHub](https://github.com/amirerfantim/ChatbotHub) — An AIaaS platform for creating, customizing, and sharing unique chatbots. Build personalized chatbot personas with ease, and let others interact with them in a collaborative environment. _(pushed 2026-11-19)_
 - [Leetcode-solutions](https://github.com/amirerfantim/Leetcode-solutions) — My LeetCode solutions in Python, Java and SQL, with an index of all problems. _(pushed 2026-11-19)_
-- [Reviewfy](https://github.com/amirerfantim/Reviewfy) — Django REST API for rating articles, with Celery and Redis processing that keeps fake-vote spikes from distorting the average. _(pushed 2026-11-19)_
-- [seath](https://github.com/amirerfantim/seath) — Record NATS subjects into PostgreSQL tables with sampling, retention and a web console _(pushed 2026-11-19)_
-- [ichnos](https://github.com/amirerfantim/ichnos) — Geolocation service: WiFi and cell tower positioning with an Ichnaea-compatible API. Rust, ScyllaDB, Redis. _(pushed 2026-11-19)_
+- [eos](https://github.com/amirerfantim/eos) — Eos — a modern habit tracker (PWA). Show up daily, keep your light alive. _(pushed 2026-11-19)_
+- [Gender-Prediction](https://github.com/amirerfantim/Gender-Prediction) —  _(pushed 2024-01-16)_
+- [Simple-Information-Retieval-System](https://github.com/amirerfantim/Simple-Information-Retieval-System) — This project aims to retrieve relevant documents from a collection of Persian news articles using boolean and ranked retrieval methods. _(pushed 2023-06-14)_
+- [Berkeley-AI-Project](https://github.com/amirerfantim/Berkeley-AI-Project) —  _(pushed 2023-06-14)_
 <!--RECENT:END-->
 
 ## 🌍 Open source

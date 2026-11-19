@@ -1,6 +1,7 @@
 import json, os, re, urllib.request
 
 USER = "amirerfantim"
+FEATURED = {"ichnos", "seath", "ChatbotHub", "Reviewfy"}
 req = urllib.request.Request(
     f"https://api.github.com/users/{USER}/repos?sort=pushed&per_page=30&type=owner",
     headers={"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
@@ -9,7 +10,7 @@ req = urllib.request.Request(
 repos = json.load(urllib.request.urlopen(req))
 rows = []
 for r in repos:
-    if r["fork"] or r["private"] or r["name"] == USER or r["archived"]:
+    if r["fork"] or r["private"] or r["name"] == USER or r["archived"] or r["name"] in FEATURED:
         continue
     day = r["pushed_at"][:10]
     desc = (r["description"] or "").strip()
