@@ -91,15 +91,6 @@ LLM pipelines, RAG chatbots and recommender systems, from my thesis and personal
 
 </div>
 
-## 📊 Stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=amirerfantim&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" height="150">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirerfantim&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" height="150">
-
-</div>
-
 ## 🚀 Recent activity
 
 <!--RECENT:START-->
