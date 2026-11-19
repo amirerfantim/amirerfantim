@@ -1,21 +1,12 @@
 # Hi, I'm Amirerfan 👋
 
 AI and backend engineer. I study MSc Computer Science (AI) at the University of Bonn.
-I build systems that handle location data, move data fast, and work with LLMs.
 
 ## What I work on
 
-- 🧭 **Location and maps:** 4 years of Go services for map and location data at scale.
-- 🤖 **AI engineering:** LLM pipelines, RAG chatbots, model evaluation, recommender systems.
-- ☁️ **Cloud and data:** Kubernetes, Docker, PostgreSQL, Prometheus, NATS.
-
-**Daily tools:** Go · Python · Rust · PostgreSQL · Docker · Kubernetes · Linux
-
-## Right now
-
-- 🔨 Building a job crawler that scores jobs with LLMs.
-- 📚 Learning German (A1 → A2).
-- 🔬 Reading about recommender systems for my thesis.
+- 🧭 **Location and maps:** 3 years of Go services for map and location data at scale (4 years of backend work in total).
+- ☁️ **Cloud and DevOps:** Kubernetes, Docker, PostgreSQL, Prometheus, NATS.
+- 🤖 **AI engineering:** LLM pipelines, RAG chatbots and recommender systems, from my thesis and personal projects.
 
 ## Open source
 
@@ -31,10 +22,6 @@ I build systems that handle location data, move data fast, and work with LLMs.
 - [ichnos](https://github.com/amirerfantim/ichnos) — Geolocation service: WiFi and cell tower positioning with an Ichnaea-compatible API. Rust, ScyllaDB, Redis. _(pushed 2026-11-19)_
 <!--RECENT:END-->
 
-## Outside code
-
-Strategy games, football and movies.
-
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/amirerfantim/) · [amirerfantim@gmail.com](mailto:amirerfantim@gmail.com)
+[amirerfantim@gmail.com](mailto:amirerfantim@gmail.com)
