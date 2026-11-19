@@ -54,14 +54,14 @@ out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBo
  '<clipPath id="bar"><rect x="30" y="228" width="820" height="14" rx="7"/></clipPath></defs>',
  '<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}'
  '.n{font-size:40px;font-weight:800;fill:url(#ac)}.l{font-size:13px;fill:#9aa4b2}.h{font-size:13px;font-weight:700;fill:#e6edf3;letter-spacing:1.5px}'
- '.k{font-size:12.5px;fill:#c9d1d9}.t{opacity:0;animation:f .8s ease forwards}'
+ '.k{font-size:12.5px;fill:#c9d1d9}.t{opacity:1}'
  '@keyframes f{to{opacity:1}}@keyframes g{from{transform:scaleX(0)}to{transform:scaleX(1)}}'
  '.s{transform-origin:30px 0;animation:g 1.2s ease-out both}</style>',
  f'<rect width="{W}" height="{H}" rx="16" fill="url(#bg)" stroke="#30363d"/>']
 tw = (W - 60) / len(facts)
 for i, (n, l) in enumerate(facts):
     x = 30 + i * tw
-    out.append(f'<g class="t" style="animation-delay:{i*0.15:.2f}s"><text x="{x+tw/2:.0f}" y="82" text-anchor="middle" class="n">{n}</text>'
+    out.append(f'<g class="t"><text x="{x+tw/2:.0f}" y="82" text-anchor="middle" class="n">{n}</text>'
                f'<text x="{x+tw/2:.0f}" y="108" text-anchor="middle" class="l">{l}</text></g>')
     if i:
         out.append(f'<line x1="{x:.0f}" y1="48" x2="{x:.0f}" y2="116" stroke="#30363d"/>')
