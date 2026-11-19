@@ -6,8 +6,6 @@
   <img src="banner-light.svg" alt="Amirerfan Teimouri" width="100%">
 </picture>
 
-<img src="terminal.svg?v=2" alt="Terminal: whoami, focus, status" width="100%">
-
 </div>
 
 ## ⚡ What I do
