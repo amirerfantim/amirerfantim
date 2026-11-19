@@ -5,7 +5,7 @@ I build systems that handle location data, move data fast, and work with LLMs.
 
 ## What I work on
 
-- 🧭 **Location and maps:** 3 years of Go services for map and location data at scale.
+- 🧭 **Location and maps:** 4 years of Go services for map and location data at scale.
 - 🤖 **AI engineering:** LLM pipelines, RAG chatbots, model evaluation, recommender systems.
 - ☁️ **Cloud and data:** Kubernetes, Docker, PostgreSQL, Prometheus, NATS.
 
