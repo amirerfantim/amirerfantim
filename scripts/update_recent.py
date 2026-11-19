@@ -1,4 +1,4 @@
-import json, os, re, urllib.request
+import datetime, json, os, re, urllib.request
 
 USER = "amirerfantim"
 FEATURED = {"ichnos", "seath", "ChatbotHub", "Reviewfy"}
@@ -13,6 +13,8 @@ for r in repos:
     if r["fork"] or r["private"] or r["name"] == USER or r["archived"] or r["name"] in FEATURED or not (r["description"] or "").strip():
         continue
     day = r["pushed_at"][:10]
+    if day < str(datetime.date.today() - datetime.timedelta(days=365)):
+        continue
     desc = (r["description"] or "").strip()
     rows.append(f"- [{r['name']}]({r['html_url']}) — {desc} _(pushed {day})_")
     if len(rows) == 5:
