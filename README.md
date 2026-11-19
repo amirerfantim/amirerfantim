@@ -4,8 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Software+engineer+and+researcher;Agentic+development+with+AI;Cloud%2C+deploy+and+observability" alt="Typing intro">
 
-<p><em>I build reliable software, investigate hard problems, and work with AI agents.</em></p>
-
 </div>
 
 ## ⚡ What I do
@@ -65,33 +63,6 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <img src="divider.svg" alt="" width="100%">
 
-## 🧠 How I work with agents
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 1 · Plan
-I write the spec and the checks first, so the agent knows what "done" means.
-
-</td>
-<td width="33%" valign="top">
-
-### 2 · Delegate
-Agents work in parallel on separate tasks, each in its own sandbox, with a model picked for the job.
-
-</td>
-<td width="33%" valign="top">
-
-### 3 · Verify
-Tests, evals and review decide what ships. I trust results I can measure.
-
-</td>
-</tr>
-</table>
-
-<img src="divider.svg" alt="" width="100%">
-
 ## 🛠️ Featured projects
 
 <table>
@@ -129,12 +100,21 @@ A rating API that keeps fake-vote spikes from moving the average.
 
 ## 🧰 Stack
 
-<table>
-<tr><td><b>Languages</b></td><td><img src="https://skillicons.dev/icons?i=go,py,rust,ts,bash&perline=10" alt=""></td></tr>
-<tr><td><b>Data and messaging</b></td><td><img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,cassandra,rabbitmq&perline=10" alt=""> <img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white" alt="NATS"></td></tr>
-<tr><td><b>Cloud and DevOps</b></td><td><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,gitlab,openstack,prometheus,grafana&perline=10" alt=""> <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm"> <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo%20CD"></td></tr>
-<tr><td><b>AI and web</b></td><td><img src="https://skillicons.dev/icons?i=pytorch,django,fastapi,react,nginx&perline=10" alt=""> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"></td></tr>
-</table>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=go,py,rust,ts,bash,postgres,redis,mongodb,cassandra&perline=9" alt="Languages and databases"><br>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,gitlab,rabbitmq,openstack,prometheus,grafana&perline=9" alt="Cloud and tools"><br>
+<img src="https://skillicons.dev/icons?i=pytorch,django,fastapi,react,nginx&perline=9" alt="Frameworks"><br><br>
+
+![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+</div>
 
 <img src="divider.svg" alt="" width="100%">
 
@@ -154,7 +134,7 @@ A rating API that keeps fake-vote spikes from moving the average.
 
 <div align="center">
 
-<img src="stats.svg?v=5" alt="All-time contributions and most used languages" width="100%">
+<img src="stats.svg?v=6" alt="All-time contributions and most used languages" width="100%">
 
 </div>
 
