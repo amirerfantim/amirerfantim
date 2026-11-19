@@ -8,34 +8,20 @@
 
 ## ⚡ What I do
 
-I am a software engineer with 4 years of experience, 3 of them on map and location systems for a ride-hailing platform at [Snapp](https://snapp.ir). I work on the whole path: design, build, test, deploy and run.
+Software engineer with 4 years of experience. I build, deploy and run software, from the first idea to production.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📍 Real-time location
-Services that take driver locations from MQTT, HTTP and NATS, add ride and driver state, and answer nearby-driver and last-known-location queries. Multi-tenant, in Go.
+### 🏗️ Software engineering
+Services and APIs in Go, Python and Rust. Clean design, good tests, and code that stays simple as it grows.
 
 </td>
 <td width="50%" valign="top">
 
-### ⏱️ ETA and ride tracking
-Live ETA calculation on message queues with A/B rollouts. Live driver location for riders in a ride. Real driven distance and ride times.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🛰️ Location trust
-Finding fake and wrong locations with Wi-Fi and cell-tower data. A geolocation service with an Ichnaea-compatible API.
-
-</td>
-<td valign="top">
-
-### 🗺️ Maps and routing
-Map matching and snap-to-road on Valhalla. Benchmarks against other engines. Several regions and tenants.
+### ⚡ Real-time systems
+Streaming data, queues, caches and live updates. Fast, reliable and measured with benchmarks.
 
 </td>
 </tr>
@@ -43,17 +29,37 @@ Map matching and snap-to-road on Valhalla. Benchmarks against other engines. Sev
 <td valign="top">
 
 ### ☁️ Cloud and deploy
-Kubernetes, Helm and Argo CD. Redis Cluster, PostgreSQL, MongoDB, RabbitMQ and NATS. Backups to S3. Metrics, tracing, profiling and dashboards.
+Kubernetes, Helm, Argo CD and CI/CD. Databases, backups, metrics, tracing and dashboards.
 
 </td>
 <td valign="top">
 
-### 🔬 R&D, data and AI
-Discovery and design docs, ground-truth data gathering, ride-data analysis. LLM pipelines, RAG chatbots and recommender systems (thesis and personal projects).
+### 🗺️ Geo and maps
+Location data, routing and map matching. Turning noisy real-world signals into answers you can trust.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🔬 R&D and data
+Discovery, design docs, experiments and data analysis. I like to measure first, then decide.
+
+</td>
+<td valign="top">
+
+### 🤖 AI
+LLM pipelines, RAG chatbots and recommender systems, from my thesis and personal projects.
 
 </td>
 </tr>
 </table>
+
+## 💡 What I enjoy
+
+- Turning messy real-world data into systems people can rely on.
+- Making slow things fast, and proving it with numbers.
+- Building small tools that save time.
 
 ## 🧰 Stack
 
@@ -82,6 +88,15 @@ Discovery and design docs, ground-truth data gathering, ride-data analysis. LLM 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amirerfantim/amirerfantim/output/github-contribution-grid-snake.svg">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/amirerfantim/amirerfantim/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+
+</div>
+
+## 📊 Stats
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=amirerfantim&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" height="150">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirerfantim&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" height="150">
 
 </div>
 
