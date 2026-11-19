@@ -44,12 +44,10 @@ o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox=
  '<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}'
  '.big{font-size:84px;font-weight:800;fill:url(#ac)}.lab{font-size:15px;fill:#9aa4b2;letter-spacing:.5px}'
  '.h{font-size:12px;font-weight:700;fill:#8b949e;letter-spacing:2px}.nm{font-size:15px;fill:#e6edf3;font-weight:600}.pc{font-size:14px;fill:#9aa4b2}</style>',
- f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg)" stroke="#30363d"/>',
- f'<rect width="{W}" height="{H}" rx="18" fill="url(#gl)"/>',
  '<text x="48" y="64" class="h">ALL TIME</text>',
  f'<text x="44" y="158" class="big">{allc:,}</text>',
  '<text x="48" y="192" class="lab">contributions on GitHub</text>',
- '<line x1="400" y1="40" x2="400" y2="260" stroke="#30363d"/>',
+ '<line x1="400" y1="40" x2="400" y2="260" class="dv"/>',
  '<text x="440" y="64" class="h">MOST USED LANGUAGES</text>']
 mx = top[0][1]
 for i, (name, size) in enumerate(top):
@@ -57,7 +55,7 @@ for i, (name, size) in enumerate(top):
     c = COLORS.get(name, "#8b949e")
     w = max(6, 300 * size / mx)
     o.append(f'<text x="440" y="{y+5}" class="nm">{name}</text>'
-             f'<rect x="540" y="{y-6}" width="240" height="12" rx="6" fill="#21262d"/>'
+             f'<rect x="540" y="{y-6}" width="240" height="12" rx="6" class="tr"/>'
              f'<rect x="540" y="{y-6}" width="{240*size/mx:.0f}" height="12" rx="6" fill="{c}"/>'
              f'<text x="796" y="{y+5}" class="pc">{100*size/total:.0f}%</text>')
 o.append('</svg>')

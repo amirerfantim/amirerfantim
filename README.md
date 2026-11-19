@@ -95,7 +95,7 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <div align="center">
 
-<img src="stats.svg?v=3" alt="All-time contributions and most used languages" width="100%">
+<img src="stats.svg?v=4" alt="All-time contributions and most used languages" width="100%">
 
 </div>
 
