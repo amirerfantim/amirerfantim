@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Amirerfan%20Teimouri&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Location%20%7C%20Cloud%20%7C%20AI&descSize=17&descAlignY=60" alt="Amirerfan Teimouri" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Amirerfan%20Teimouri&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Researcher%20%7C%20Agentic%20AI&descSize=17&descAlignY=60" alt="Amirerfan Teimouri" width="100%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Real-time+location+systems+at+scale;Cloud%2C+deploy+and+observability;R%26D%2C+data+analysis+and+AI" alt="Typing intro">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Software+engineer+and+researcher;Agentic+development+with+AI;Cloud%2C+deploy+and+observability" alt="Typing intro">
 
 </div>
 
@@ -42,14 +42,14 @@ Location data, routing and map matching. Turning noisy real-world signals into a
 <tr>
 <td valign="top">
 
-### 🔬 R&D and data
-Discovery, design docs, experiments and data analysis. I like to measure first, then decide.
+### 🔬 Research and science
+I investigate before I build: hypotheses, experiments, benchmarks and clear write-ups. Topics include particle and Kalman filters, noisy sensor data, A/B tests and system migrations.
 
 </td>
 <td valign="top">
 
-### 🤖 AI
-LLM pipelines, RAG chatbots and recommender systems, from my thesis and personal projects.
+### 🤖 Agentic AI
+I build with AI agents every day, and I design agent workflows: skills, sub-agents, evals, LLM pipelines and RAG. An early adopter of agentic development.
 
 </td>
 </tr>
@@ -88,6 +88,14 @@ LLM pipelines, RAG chatbots and recommender systems, from my thesis and personal
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amirerfantim/amirerfantim/output/github-contribution-grid-snake.svg">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/amirerfantim/amirerfantim/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+
+</div>
+
+## 📊 By the numbers
+
+<div align="center">
+
+<img src="stats.svg" alt="Stats: years, commits, research reports and top languages" width="100%">
 
 </div>
 

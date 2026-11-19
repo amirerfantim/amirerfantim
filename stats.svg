@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" role="img" aria-label="Stats">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b2e"/></linearGradient><linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#c471ed"/></linearGradient><clipPath id="bar"><rect x="30" y="228" width="820" height="14" rx="7"/></clipPath></defs>
+<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif}.n{font-size:40px;font-weight:800;fill:url(#ac)}.l{font-size:13px;fill:#9aa4b2}.h{font-size:13px;font-weight:700;fill:#e6edf3;letter-spacing:1.5px}.k{font-size:12.5px;fill:#c9d1d9}.t{opacity:0;animation:f .8s ease forwards}@keyframes f{to{opacity:1}}@keyframes g{from{transform:scaleX(0)}to{transform:scaleX(1)}}.s{transform-origin:30px 0;animation:g 1.2s ease-out both}</style>
+<rect width="880" height="330" rx="16" fill="url(#bg)" stroke="#30363d"/>
+<g class="t" style="animation-delay:0.00s"><text x="132" y="82" text-anchor="middle" class="n">4</text><text x="132" y="108" text-anchor="middle" class="l">years of engineering</text></g>
+<g class="t" style="animation-delay:0.15s"><text x="338" y="82" text-anchor="middle" class="n">1,650+</text><text x="338" y="108" text-anchor="middle" class="l">commits in production services</text></g>
+<line x1="235" y1="48" x2="235" y2="116" stroke="#30363d"/>
+<g class="t" style="animation-delay:0.30s"><text x="542" y="82" text-anchor="middle" class="n">14</text><text x="542" y="108" text-anchor="middle" class="l">research reports written</text></g>
+<line x1="440" y1="48" x2="440" y2="116" stroke="#30363d"/>
+<g class="t" style="animation-delay:0.45s"><text x="748" y="82" text-anchor="middle" class="n">14</text><text x="748" y="108" text-anchor="middle" class="l">public repositories</text></g>
+<line x1="645" y1="48" x2="645" y2="116" stroke="#30363d"/>
+<text x="30" y="178" class="h">MOST USED LANGUAGES (PUBLIC REPOS)</text>
+<g clip-path="url(#bar)"><g class="s">
+<rect x="30.0" y="228" width="373.0" height="14" fill="#3776AB"/>
+<rect x="402.0" y="228" width="173.6" height="14" fill="#DEA584"/>
+<rect x="574.6" y="228" width="92.6" height="14" fill="#00ADD8"/>
+<rect x="666.2" y="228" width="75.1" height="14" fill="#B07219"/>
+<rect x="740.3" y="228" width="56.8" height="14" fill="#8b949e"/>
+<rect x="796.1" y="228" width="31.5" height="14" fill="#3178C6"/>
+<rect x="826.6" y="228" width="24.4" height="14" fill="#F1E05A"/>
+</g></g>
+<circle cx="35" cy="268" r="5" fill="#3776AB"/><text x="46" y="272" class="k">Python 43%</text>
+<circle cx="153" cy="268" r="5" fill="#DEA584"/><text x="164" y="272" class="k">Rust 20%</text>
+<circle cx="255" cy="268" r="5" fill="#00ADD8"/><text x="266" y="272" class="k">Go 11%</text>
+<circle cx="341" cy="268" r="5" fill="#B07219"/><text x="352" y="272" class="k">Java 9%</text>
+<circle cx="435" cy="268" r="5" fill="#8b949e"/><text x="446" y="272" class="k">C 7%</text>
+<circle cx="505" cy="268" r="5" fill="#3178C6"/><text x="516" y="272" class="k">TypeScript 4%</text>
+<circle cx="647" cy="268" r="5" fill="#F1E05A"/><text x="658" y="272" class="k">JavaScript 3%</text>
+</svg>
