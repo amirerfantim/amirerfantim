@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Amirerfan%20Teimouri&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%C2%B7%20Location%20%26%20Maps%20%C2%B7%20Cloud%20%C2%B7%20AI&descSize=17&descAlignY=60" alt="Amirerfan Teimouri" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Amirerfan%20Teimouri&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Location%20%7C%20Cloud%20%7C%20AI&descSize=17&descAlignY=60" alt="Amirerfan Teimouri" width="100%">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&repeat=true&width=720&height=40&lines=MSc+CS%2FAI+%40+University+of+Bonn;Real-time+location+systems+at+scale;Cloud%2C+deploy+and+observability;R%26D%2C+data+analysis+and+AI" alt="Typing intro">
 
