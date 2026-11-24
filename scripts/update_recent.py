@@ -11,9 +11,8 @@ rows = []
 for r in repos:
     if r["fork"] or r["private"] or r["name"] == USER or r["archived"]:
         continue
-    day = r["pushed_at"][:10]
     desc = (r["description"] or "").strip()
-    rows.append(f"- [{r['name']}]({r['html_url']}) — {desc} _(pushed {day})_")
+    rows.append(f"- [{r['name']}]({r['html_url']})" + (f" — {desc}" if desc else ""))
     if len(rows) == 5:
         break
 
