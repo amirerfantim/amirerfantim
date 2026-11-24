@@ -95,7 +95,7 @@ I build with AI agents every day, and I design agent workflows: skills, sub-agen
 
 <!--RECENT:START-->
 - [ichnos](https://github.com/amirerfantim/ichnos) — Geolocation service: WiFi and cell tower positioning with an Ichnaea-compatible API. Rust, ScyllaDB, Redis.
-- [Gender-Prediction](https://github.com/amirerfantim/Gender-Prediction) — 
+- [Gender-Prediction](https://github.com/amirerfantim/Gender-Prediction)
 - [eos](https://github.com/amirerfantim/eos) — Eos — a modern habit tracker (PWA). Show up daily, keep your light alive.
 - [Reviewfy](https://github.com/amirerfantim/Reviewfy) — Django REST API for rating articles, with Celery and Redis processing that keeps fake-vote spikes from distorting the average.
 - [Leetcode-solutions](https://github.com/amirerfantim/Leetcode-solutions) — My LeetCode solutions in Python, Java and SQL, with an index of all problems.
