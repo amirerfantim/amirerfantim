@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="310" viewBox="0 0 880 310" role="img" aria-label="2,766 contributions and most used languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="310" viewBox="0 0 880 310" role="img" aria-label="2,792 contributions and most used languages">
 <defs><linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="360" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="0.5" stop-color="#c471ed"/><stop offset="1" stop-color="#36bcf7"/><animateTransform attributeName="gradientTransform" type="translate" from="-360 0" to="360 0" dur="6s" repeatCount="indefinite"/></linearGradient><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#c471ed"/></linearGradient></defs>
 <style>text{font-family:'Fira Code','SF Mono',ui-monospace,Menlo,Consolas,monospace}.big{font-size:78px;font-weight:700;fill:url(#ac)}.cap{font-size:12px;fill:#768390;letter-spacing:3px;font-weight:600}.lab{font-size:14px;fill:#768390}.nm{font-size:14px;fill:#768390;font-weight:700}.pc{font-size:13px;fill:#768390}.w{transform-box:fill-box;transform-origin:bottom;animation:up 1s cubic-bezier(.2,.8,.2,1) both}.l{transform-box:fill-box;transform-origin:left;animation:right 1.1s cubic-bezier(.2,.8,.2,1) both}@keyframes up{from{transform:scaleY(0)}to{transform:scaleY(1)}}@keyframes right{from{transform:scaleX(0)}to{transform:scaleX(1)}}.dot{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}</style>
 <circle class="dot" cx="52" cy="46" r="4" fill="#3fb950"/>
 <text x="66" y="51" class="cap">ALL-TIME CONTRIBUTIONS</text>
-<text x="44" y="136" class="big">2,766</text>
+<text x="44" y="136" class="big">2,792</text>
 <text x="48" y="162" class="lab">commits, pull requests, reviews, issues</text>
 <rect class="w" style="animation-delay:0.00s" x="48.0" y="248.0" width="5.2" height="2.0" rx="1.5" fill="url(#bar)" fill-opacity="0.35"/>
 <rect class="w" style="animation-delay:0.02s" x="54.8" y="248.0" width="5.2" height="2.0" rx="1.5" fill="url(#bar)" fill-opacity="0.35"/>
@@ -57,7 +57,7 @@
 <rect class="w" style="animation-delay:0.88s" x="380.8" y="197.6" width="5.2" height="52.4" rx="1.5" fill="url(#bar)" fill-opacity="0.84"/>
 <rect class="w" style="animation-delay:0.90s" x="387.6" y="204.5" width="5.2" height="45.5" rx="1.5" fill="url(#bar)" fill-opacity="0.77"/>
 <rect class="w" style="animation-delay:0.92s" x="394.4" y="204.5" width="5.2" height="45.5" rx="1.5" fill="url(#bar)" fill-opacity="0.77"/>
-<rect class="w" style="animation-delay:0.94s" x="401.2" y="232.4" width="5.2" height="17.6" rx="1.5" fill="url(#bar)" fill-opacity="0.51"/>
+<rect class="w" style="animation-delay:0.94s" x="401.2" y="223.8" width="5.2" height="26.2" rx="1.5" fill="url(#bar)" fill-opacity="0.59"/>
 <text x="48" y="278" class="lab" style="font-size:11px">last 12 months, per week</text>
 <line x1="440" y1="40" x2="440" y2="270" stroke="#8b949e" stroke-opacity="0.35"/>
 <text x="480" y="51" class="cap">MOST USED LANGUAGES</text>
